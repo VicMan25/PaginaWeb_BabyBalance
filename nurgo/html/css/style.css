@@ -273,6 +273,16 @@ button {
     padding-top: 120px;
 }
 
+.banner_taital2 {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #15e4d0;
+    font-weight: bold;
+    line-height: 60px;
+    padding-top: 120px;
+}
+
 .banner_text {
     width: 100%;
     float: left;
