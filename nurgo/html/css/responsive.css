@@ -154,9 +154,9 @@
         font-size: 15px;
     }
     #my_slider a.carousel-control-next {
-        left: 335px;
-        top: 72%;
-    }
+        left: auto;
+        top: auto;
+    }auto
     #my_slider a.carousel-control-prev {
         left: 335px;
         top: 84%;
