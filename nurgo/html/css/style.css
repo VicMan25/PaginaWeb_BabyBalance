@@ -505,15 +505,17 @@ button {
     background-color: #252525;
 }
 
+
 .knowledge_section {
     width: 100%;
     float: left;
-    background-image: url(../images/knowledge-bg.png);
+    background-image: url(../images/fondosdfdsf.png);
     background-size: 100%;
     height: auto;
     background-repeat: no-repeat;
     padding-top: 180px;
     padding-bottom: 240px;
+    filter: brightness(70%) contrast(100%);
 }
 
 .knowledge_main {
@@ -522,8 +524,8 @@ button {
 }
 
 .left_main {
-    width: 70%;
-    float: left;
+    width: 100%;
+    text-align: center;
 }
 
 .right_main {
@@ -540,10 +542,11 @@ button {
 }
 
 .knowledge_text {
+    text-align: center;
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     margin: 0px;
 }
 
