@@ -840,6 +840,28 @@ button {
     color: #ffffff;
 }
 
+.faq_section {
+    padding: 50px 0;
+}
+.faq_content {
+    margin-top: 30px;
+}
+.faq_item {
+    margin-bottom: 20px;
+}
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.answer {
+    font-size: 16px;
+    color: #666;
+}
+.centrado {
+    text-align: center;
+}
+
 #my_slider a.carousel-control-next {
     position: absolute;
     left: 490px;
