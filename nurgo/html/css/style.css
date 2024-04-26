@@ -85,7 +85,7 @@ h3 {
 }
 
 h4 {
-    font-size: 16px
+    font-size: 20px
 }
 
 h5 {
@@ -130,7 +130,7 @@ ol {
 p {
     margin: 20px;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -369,6 +369,7 @@ button {
 .health_section {
     width: 98%;
     float: left;
+    text-align: center;
     padding-bottom: 60px;
 }
 
@@ -378,6 +379,8 @@ button {
     font-size: 40px;
     color: #252525;
     font-weight: bold;
+    text-align: justify;
+    margin-bottom: 40px;
 }
 
 .health_text {
@@ -788,7 +791,7 @@ button {
 .client_section_2 {
     width: 100%;
     float: left;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 .client_left {
@@ -804,9 +807,9 @@ button {
 
 .client_img {
     width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
+    margin: 120px auto 0;
+    text-align: justify;
+    display: grid;
 }
 
 .distracted_text {
@@ -816,6 +819,8 @@ button {
     color: #080808;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .lorem_text {
@@ -864,15 +869,15 @@ button {
 
 #my_slider a.carousel-control-next {
     position: absolute;
-    left: 490px;
-    top: 70%;
+    right: 100px;
+    top: 84%;
     background-color: #19e9d9;
     color: #ffffff;
 }
 
 #my_slider a.carousel-control-prev {
     position: absolute;
-    left: 490px;
+    left: 100px;
     top: 84%;
     background-color: #252525;
 }
@@ -1015,4 +1020,8 @@ input.Enter_text::placeholder {
 
 li {
     color: black;
+}
+td {
+    text-align: center; 
+    vertical-align: middle;
 }
